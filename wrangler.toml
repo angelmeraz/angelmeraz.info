@@ -2,3 +2,4 @@ name = "angelmeraz-info"
 compatibility_date = "2026-09-02"
 # Tell Wrangler to use the custom types file instead of generating worker-configuration.d.ts at repo root
 # types = "./types/worker-configuration.d.ts"
+directory = "./.svelte-kit"
