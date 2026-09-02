@@ -1,5 +1,6 @@
-Hi, I'm <a href="https://www.linkedin.com/in/angelmeraz/" target="_blank" className="text-accent">Angel Meraz <i className="fa-brands fa-linkedin text-base"></i></a>.
+Hi, I'm <a href="https://www.linkedin.com/in/angelmeraz/" target="_blank" className="text-accent">Angel Meraz</a>.<br>
 Welcome to my contact page.
+<!-- <i className="fa-brands fa-linkedin text-base"></i> -->
 
 I am a Full Stack JavaScript Engineer passionate about technology and design, with over a decade of experience developing Web Applications and User Interfaces. I have a strong appetite for new opportunities and am interested in making collaborations exciting.
 

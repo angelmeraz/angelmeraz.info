@@ -33,7 +33,8 @@
 	function getActiveRouteIndex() {
 		if (isRootRoute) return 0;
 
-		return navItems.findIndex((navItem) => getActiveRoute(navItem));
+		const idx = navItems.findIndex((navItem) => getActiveRoute(navItem));
+		return idx === -1 ? 0 : idx + 1;
 	}
 
 	const activeRouteIndex = $derived(getActiveRouteIndex());

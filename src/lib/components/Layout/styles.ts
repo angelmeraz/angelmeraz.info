@@ -11,7 +11,7 @@ export const tw = ClassGroup({
 		l: 'flex items-center justify-center h-8 w-8',
 		p: {
 			d: 'absolute top-7 right-6 z-10',
-			md: 'md:fixed md:top-25.5 md:right-6'
+			md: 'md:fixed md:top-19.5 md:right-6'
 		},
 		t: '',
 		i: 'transition-colors cursor-pointer'
@@ -24,8 +24,7 @@ export const tw = ClassGroup({
 	container: 'md:flex md:gap-8',
 	aside: {
 		a: 'text-accent',
-		l: 'w-32',
-		md: 'md:pt-6'
+		l: 'mb-6 w-32'
 	},
 	content: {
 		g: 'prose md:prose-lg text-text',

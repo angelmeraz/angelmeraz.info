@@ -35,3 +35,13 @@
 	--tw-prose-links: var(--color-accent);
 	--tw-prose-strong: var(--color-accent);
 }
+
+.prose {
+	> *:first-child {
+		margin-top: 0;
+
+		> *:first-child {
+			margin-top: 0;
+		}
+	}
+}

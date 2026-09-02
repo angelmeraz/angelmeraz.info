@@ -4,7 +4,7 @@
 	import { Moon, Sun } from '$lib/SVG';
 	import type { NavItem } from '$lib/components/Nav/Nav.svelte';
 
-	let { content = null, header = null, nav = null } = $props();
+	let { content = null, header = null } = $props();
 	let themeToggle = $state(false);
 
 	function handleThemeToggle() {
@@ -30,13 +30,9 @@
 	</button>
 
 	<div class={tw.container}>
-		{#if nav}
-			<aside class={tw.aside}>
-				{@render nav?.()}
-			</aside>
-		{:else}
+		<aside class={tw.aside}>
 			<Nav {navItems} />
-		{/if}
+		</aside>
 		{#if content}
 			<div class={tw.content}>
 				{@render content?.()}
