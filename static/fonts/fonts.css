@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Simple';
+  src: url('simple-light.woff2') format('woff2'),
+    url('simple-light.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Simple';
+  src: url('simple-light-oblique.woff2') format('woff2'),
+    url('simple-light-oblique.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Simple';
+  src: url('simple-regular.woff2') format('woff2'),
+    url('simple-regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Simple';
+  src: url('simple-oblique.woff2') format('woff2'),
+    url('simple-oblique.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Simple';
+  src: url('simple-bold.woff2') format('woff2'),
+    url('simple-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Simple';
+  src: url('simple-bold-oblique.woff2') format('woff2'),
+    url('simple-bold-oblique.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: block;
+}

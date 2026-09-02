@@ -1,2 +1,37 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+:root {
+	--color-accent: #59c3eb;
+	--color-background: #2d3032;
+	--color-text: #ffffff;
+}
+
+.bright {
+	--color-accent: #59c3eb;
+	--color-background: #ffffff;
+	--color-text: #2d3032;
+}
+
+@theme {
+	--color-accent: 'var(--color-accent)';
+	--color-background: 'var(--color-background)';
+	--color-text: 'var(--color-text)';
+
+	--font-sans:
+		'Simple', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
+		monospace;
+
+	--animate-blink: blink 0.6s steps(2, start) infinite;
+}
+
+@keyframes blink {
+	to {
+		visibility: hidden;
+	}
+}
+
+@utility prose {
+	--tw-prose-links: var(--color-accent);
+	--tw-prose-strong: var(--color-accent);
+}

@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { Layout, Markdown } from '$lib/components';
-	import Start from '$lib/content/Start.md?raw';
+	import Bio from '$lib/content/Bio.md?raw';
 </script>
 
 <Layout>
 	{#snippet content()}
-		<Markdown markdown={Start} />
+		<Markdown markdown={Bio} />
 	{/snippet}
 </Layout>
