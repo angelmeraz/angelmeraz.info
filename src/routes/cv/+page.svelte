@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Layout, Markdown } from '$lib/components';
-	import CV from '$lib/contents/CV.md?raw';
+	import CV from '$lib/content/CV.md?raw';
 </script>
 
 <Layout>

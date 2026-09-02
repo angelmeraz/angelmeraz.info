@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Layout, Markdown } from '$lib/components';
-	import Start from '$lib/contents/Start.md?raw';
+	import Start from '$lib/content/Start.md?raw';
 </script>
 
 <Layout>

@@ -19,7 +19,7 @@ While at iTech, I had the chance to further develop my engineering skills. I joi
 
 - <a href="https://turborepo.org" target="_blank">Turborepo</a>
 - <a href="https://kit.svelte.dev" target="_blank">SvelteKit</a>
-- <a href="http://tailwindcss.com" target="_blank">Tailwind</a>
+- <a href="http://tailwindcss.com" target="_blank">TailwindCSS</a>
 - <a href="https://storybook.js.org" target="_blank">Storybook</a>
 - <a href="https://www.chromatic.com" target="_blank">Chromatic</a>
 - <a href="https://playwright.dev" target="_blank">Playwright</a>
