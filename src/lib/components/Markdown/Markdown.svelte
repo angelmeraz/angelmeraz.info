@@ -17,5 +17,5 @@
 	});
 </script>
 
-<!-- svelte-ignore security-html -->
+<!-- svelte-ignore no-at-html-tags -->
 {@html safeHtml}

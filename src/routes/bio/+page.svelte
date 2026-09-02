@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Layout, Markdown } from '$lib/components';
-	import Bio from '$lib/content/Bio.md?raw';
+	import Bio from '$lib/contents/Bio.md?raw';
 </script>
 
 <Layout>
