@@ -1,5 +1,9 @@
 name = "angelmeraz-info"
 compatibility_date = "2026-09-02"
-# Tell Wrangler to use the custom types file instead of generating worker-configuration.d.ts at repo root
-# types = "./types/worker-configuration.d.ts"
-directory = "./.svelte-kit"
+# Let Wrangler generate/check types itself (avoid the older wrangler 'types' top-level option which may be unsupported)
+# If you need custom types in CI, add a tip later to upgrade Wrangler.
+
+main = "./.svelte-kit/cloudflare/_worker.js"
+
+[assets]
+  directory = "./.svelte-kit/cloudflare"
